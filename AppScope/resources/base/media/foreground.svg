@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 216 216" width="216" height="216">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#F5F5F5" stop-opacity="0.90"/>
+    </linearGradient>
+    <filter id="ds" x="-8%" y="-8%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.15"/>
+    </filter>
+    <filter id="ts" x="-3%" y="-3%" width="106%" height="106%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1" flood-color="#8B0000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <g filter="url(#ds)">
+    <rect x="24" y="32" width="168" height="152" rx="24" fill="url(#bg)"/>
+    <rect x="24" y="32" width="168" height="152" rx="24" fill="none" stroke="#FFFFFF" stroke-width="1.2" stroke-opacity="0.6"/>
+  </g>
+  <path d="M32 68 Q108 48 184 68" fill="none" stroke="#C7000B" stroke-width="2" stroke-opacity="0.3" stroke-linecap="round"/>
+  <circle cx="32" cy="68" r="4" fill="#C7000B" opacity="0.45"/>
+  <circle cx="184" cy="68" r="4" fill="#C7000B" opacity="0.45"/>
+  <g filter="url(#ts)">
+    <text x="108" y="108" font-family="Arial Black, Arial, sans-serif" font-size="50" font-weight="900" fill="#C7000B" text-anchor="middle" letter-spacing="4">Trip</text>
+    <text x="108" y="152" font-family="Arial Black, Arial, sans-serif" font-size="50" font-weight="900" fill="#222222" text-anchor="middle" letter-spacing="4">Log</text>
+  </g>
+  <line x1="52" y1="120" x2="164" y2="120" stroke="#E0E0E0" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <path d="M32 168 Q108 152 184 168" fill="none" stroke="#C7000B" stroke-width="2" stroke-opacity="0.3" stroke-linecap="round"/>
+  <circle cx="32" cy="168" r="4" fill="#C7000B" opacity="0.45"/>
+  <circle cx="184" cy="168" r="4" fill="#C7000B" opacity="0.45"/>
+  <g transform="translate(148, 40) scale(0.45) rotate(25, 16, 16)">
+    <path d="M0,16 L8,0 L16,16 L11,16 L11,32 L5,32 L5,16 Z" fill="#C7000B" opacity="0.65"/>
+  </g>
+</svg>
